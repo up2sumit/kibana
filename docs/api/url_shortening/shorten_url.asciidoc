@@ -26,7 +26,7 @@ the shortened URL token for the provided request body.
 --------------------------------------------------
 POST api/shorten_url
 {
-  "url": "/app/kibana#/dashboard?_g=()&_a=(description:'',filters:!(),fullScreenMode:!f,options:(darkTheme:!f,hidePanelTitles:!f,useMargins:!t),panels:!((embeddableConfig:(),gridData:(h:15,i:'1',w:24,x:0,y:0),id:'8f4d0c00-4c86-11e8-b3d7-01146121b73d',panelIndex:'1',type:visualization,version:'7.0.0-alpha1')),query:(language:lucene,query:''),timeRestore:!f,title:'New%20Dashboard',viewMode:edit)"
+  "url": "https://kibana.bsh-ac.cloud/s/hip/app/kibana#/discover?_g=(refreshInterval:(pause:!t,value:0),time:(from:now%2Fy,mode:quick,to:now%2Fy))&_a=(columns:!(level,hip.path,hip.http.response.statusCode,hip.message,EVENT_TYPE),filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:d01a95a0-2fb5-11e9-865f-dd315ef4bf9d,key:X-Request-ID,negate:!f,params:(query:spw-postman-03,type:phrase),type:phrase,value:spw-postman-03),query:(match:(X-Request-ID:(query:spw-postman-03,type:phrase))))),index:d01a95a0-2fb5-11e9-865f-dd315ef4bf9d,interval:auto,query:(language:lucene,query:''),sort:!('@timestamp',desc))"
 }
 --------------------------------------------------
 // KIBANA
